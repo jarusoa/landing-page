@@ -1,12 +1,30 @@
-.header-section{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: auto;
-    margin-left: 100px;
-    margin-right: 100px;
+body {
+    margin: 0;
+    padding: 0;
 }
 
-.header-section .header{
-    flex-grow: 0.9;
+
+
+.header-section{
+    background-color: aliceblue;
+}
+.header-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1rem;
+    flex-wrap: wrap;
+}
+.nav{
+    margin-left: auto;
+}
+
+.nav-wrapper{
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-item a {
+    display: block;
+    padding: 0.5rem; 
 }
