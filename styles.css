@@ -28,3 +28,15 @@ body {
     display: block;
     padding: 0.5rem; 
 }
+
+.header-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1rem;
+}
+
+
+.website-items{
+    margin: 0;
+}
