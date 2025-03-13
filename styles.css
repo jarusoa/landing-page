@@ -61,3 +61,21 @@ body {
     flex-wrap: wrap;
     text-align: center;
 }
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+  }
+
+  .quote-section {
+    width: 40%;
+  }
+  
+  #quote-author {
+    display: block;       /* Ensures the author starts on a new line */
+    text-align: right;    /* Aligns the author to the far right */
+    margin-top: 10px;     /* Adds space between the quote and author */
+    font-style: normal;   /* Reset italics if needed */
+  }
