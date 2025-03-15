@@ -1,12 +1,14 @@
+
 body {
     margin: 0;
     padding: 0;
+    font-family: Roboto;
 }
 
 
 
 .header-section{
-    background-color: aliceblue;
+    background-color: #1F2937;
 }
 .header-wrapper{
     display: flex;
@@ -37,6 +39,7 @@ body {
     padding-left: 5rem;
     padding-right: 5rem;
     padding-bottom: 5rem;
+    background-color: #1F2937;
 }
 
 
@@ -122,5 +125,12 @@ body {
     justify-content: center;
     align-items: center;
     padding-bottom: 1rem;
+    background-color: #1F2937;
+  }
+
+  .header.website-items {
+    font-weight: 900;
+    font-size: 48px;
+    color:#F9FAF8
   }
 
