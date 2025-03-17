@@ -32,6 +32,7 @@ body {
     padding: 0.5rem; 
     font-size: 18px;
     color: #E5E7EB;
+    text-decoration: none;
 }
 
 .header-content{
@@ -164,4 +165,5 @@ body {
   .button {
     background-color: #3882f6;
     color: white;
+    border-radius: 15px;
   }
